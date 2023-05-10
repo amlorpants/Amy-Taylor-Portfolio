@@ -57,12 +57,13 @@ h3 {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
-  text-align: center;
-  overflow: hidden;
+  text-align: left;
+  overflow: auto;
   box-shadow: 10px 5px 5px lightgray;
   flex-direction: row;
-  height: 300px;
+  height: 350px;
   max-width: 40%;
+  font-size: 18px;
 }
 .project-card {
   margin: 20px;
@@ -92,4 +93,53 @@ h3 {
   padding: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* contact form*/
+
+form {
+  max-width: 350px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: black;
+  font-family: 'Caudex', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 18px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid brown;
+}
+
+[type='submit'] {
+  font-family: 'caudex', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: brown;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 600;
+}
+[type='submit']:hover {
+  background: rgb(71, 17, 17);
+}

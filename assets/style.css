@@ -45,6 +45,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
 /* section containers */
 .container {
   display: flex;
@@ -53,6 +54,7 @@ h3 {
   flex-wrap: wrap;
   font-family: 'Caudex', serif;
 }
+
 .about-card {
   margin: 20px;
   padding: 20px;
@@ -65,6 +67,7 @@ h3 {
   max-width: 40%;
   font-size: 18px;
 }
+
 .project-card {
   margin: 20px;
   padding: 20px;
@@ -82,10 +85,12 @@ h3 {
   height: 200px; /* Fixed height for the images */
   object-fit: cover; /* Resize images to cover container */
 }
+
 .project-card h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .project-card p {
   font-size: 16px;
   line-height: 1.5;
@@ -104,24 +109,24 @@ form {
   margin: 50px auto;
 }
 
-.feedback-input {
+.user-input {
   color: black;
   font-family: 'Caudex', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
   line-height: 18px;
   background-color: transparent;
   border: 2px solid black;
   transition: all 0.3s;
-  padding: 13px;
+  padding: 14px;
   margin-bottom: 15px;
   width: 100%;
   box-sizing: border-box;
   outline: 0;
 }
 
-.feedback-input:focus {
+.user-input:focus {
   border: 2px solid brown;
 }
 
@@ -129,14 +134,13 @@ form {
   font-family: 'caudex', Arial, Helvetica, sans-serif;
   width: 100%;
   background: brown;
-  border-radius: 5px;
-  border: 0;
+  border-radius: 8px;
   cursor: pointer;
   color: white;
   font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: all 0.5s;
   margin-top: -4px;
   font-weight: 600;
 }

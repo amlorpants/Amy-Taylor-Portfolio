@@ -10,7 +10,7 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  background-image: url(/assets/images/Group\ 11.png);
+  background-image: url('./images/Group\ 11.png');
   height: 475px;
   background-position: center;
 }

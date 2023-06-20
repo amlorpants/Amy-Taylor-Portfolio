@@ -108,7 +108,7 @@ h2 {
   overflow: auto;
   box-shadow: 10px 5px 5px lightgray;
   flex-direction: row;
-  height: 350px;
+  height: 500px;
   max-width: 40%;
   font-size: 18px;
 }
@@ -116,7 +116,7 @@ h2 {
 /* contact form*/
 
 form {
-  max-width: 350px;
+  max-width: 400px;
   margin: 50px auto;
 }
 
@@ -141,6 +141,15 @@ form {
   border: 2px solid brown;
 }
 
+.btn {
+  font-family: 'caudex', Arial, Helvetica, sans-serif !important;
+  width: 25%;
+  background: brown !important;
+  border-radius: 8px !important;
+  cursor: pointer;
+  color: white !important;
+}
+
 [type='submit'] {
   font-family: 'caudex', Arial, Helvetica, sans-serif;
   width: 100%;
@@ -158,4 +167,16 @@ form {
 
 [type='submit']:hover {
   background: rgb(71, 17, 17);
+}
+
+.card {
+  margin-left: 235px;
+  margin-right: 235px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  text-align: center;
+  font-family: 'caudex', Arial, Helvetica, sans-serif !important;
 }

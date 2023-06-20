@@ -15,4 +15,5 @@ URL:https://github.com/amlorpants/Amy-Taylor-Portfolio.git
 Amy Taylor
 
 ## Visual
+
 ![image](https://github.com/amlorpants/Amy-Taylor-Portfolio/assets/87711695/64febaba-1b9f-4c38-8a91-148c9286cb59)
